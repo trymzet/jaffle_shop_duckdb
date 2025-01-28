@@ -5,4 +5,10 @@ jaffle_shop:
     dev:
       type: duckdb
       path: 'jaffle_shop.duckdb'
+      schema: dbt_user
+      threads: 24
+    prod:
+      type: duckdb
+      path: 'jaffle_shop.duckdb'
+      schema: staging
       threads: 24

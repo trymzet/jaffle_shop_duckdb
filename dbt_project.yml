@@ -32,3 +32,9 @@ models:
         node_color: 'silver'
     +docs:
       node_color: 'gold'
+
+    intermediate:
+      schema: intermediate
+
+    marts:
+      schema: marts
